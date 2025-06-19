@@ -115,7 +115,7 @@ app.post("/uploadJPIA", upload.single("file"), async (req, res) => {
     });
   }
 });
-const port = 5000;
+const port = 8080;
 app.listen(port, async () => {
   try {
     await sequelize.sync();
