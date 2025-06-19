@@ -19,7 +19,6 @@ const createAccount = async ({
   password,
   email,
   department,
-  role,
   // token,
 }) => {
   try {
@@ -40,7 +39,6 @@ const createAccount = async ({
       password: hashedPass,
       department,
       email,
-      role,
       // token,
     });
 
